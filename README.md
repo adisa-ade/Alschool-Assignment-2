@@ -4,7 +4,7 @@ This project contains two basic HTML web pages built **without any CSS**, as par
 
 ## 📁 Files Included
 
-1. **table.html**  
+1. **index.html (table page)**  
    - Displays a table of all the schools and available courses at AltSchool Africa.
    - Organized with proper semantic elements: `<table>`, `<thead>`, `<tbody>`, and `<ul>` for listing courses.
    - Links to the second page: `media.html`.
