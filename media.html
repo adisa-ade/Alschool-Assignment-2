@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me – Media Page</title>
+</head>
+<body>
+  <h1>About Me – Through Multimedia</h1>
+
+  <picture>
+    <source media="(max-width: 600px)" srcset="mobile.jpg">
+    <source media="(max-width: 1024px)" srcset="tablet.jpg">
+    <source media="(min-width: 1025px)" srcset="laptop.jpg">
+    <img src="default.jpg" alt="A photo representing me">
+  </picture>
+
+  <h2>My Journey</h2>
+  <p>I am an aspiring engineer with a passion for building scalable web applications and learning across multiple domains of tech.</p>
+
+  <h2>Watch My Story</h2>
+  <video controls width="300">
+    <source src="story.mp4" type="video/mp4">
+    <source src="story.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Listen to My Voice</h2>
+  <audio controls>
+    <source src="voice.mp3" type="audio/mpeg">
+    <source src="voice.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>My Favorite Quote</h2>
+  <blockquote>
+    "Learning never exhausts the mind, it only ignites the fire of discovery." – Anonymous
+  </blockquote>
+
+  <p><a href="table.html">← Back to Courses Table</a></p>
+</body>
+</html>
